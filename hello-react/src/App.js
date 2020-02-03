@@ -12,6 +12,12 @@ es el que debemos colocar dentro de la etiqueta del return
 import FuncionDeSaludo from './components/ComponenteFuncion'
 import ClaseBienvenida from './components/ComponenteClase'
 import Hello from './components/AgregandoHijos'
+import Mensaje from './components/SetState'
+import Counter from './components/SetState_Callback'
+import CounterOf5 from './components/PrevState'
+import DestructuringFunct from './components/DestructuringFunction'
+import DestructuringClass from './components/DestructuringClass'
+
 
 
 /* Se crea una clase de componente que contendrá en una estructura
@@ -27,7 +33,7 @@ class AprendiendoReact extends React.Component{
                 distintas, esto se logra por medio de las "props"
                 que se encuentran aquí (name, heroName) y se asocian 
                 en el archivo "ComponenteFuncion"*/}
-                <FuncionDeSaludo name='Clark Kent' heroName='Superman' />
+               {/*     <FuncionDeSaludo name='Clark Kent' heroName='Superman' />    */}
 
                 {/* Tambien se pueden agregar "props children" especificamente
                 a uno de los componente creados, esto se hace creando una 
@@ -46,9 +52,18 @@ class AprendiendoReact extends React.Component{
                 propiedades especificas.  Se añaden props igual que en un componente
                 de función. */}
                 <ClaseBienvenida name='Clark Kent' heroName='Superman' />
-                <ClaseBienvenida name='Bruce Wayne' heroName='Batman' />
-                <ClaseBienvenida name='Diana Prince' heroName='Wonderwoman' />
+                {/*     <ClaseBienvenida name='Bruce Wayne' heroName='Batman' />
+                <ClaseBienvenida name='Diana Prince' heroName='Wonderwoman' />      */}
                 <Hello />
+                <Mensaje />
+                <Counter />
+
+                {/*Al ser un numero el valor se coloca entre llaves*/}
+                <CounterOf5 addValue= {1} />
+
+                <DestructuringFunct name='Diana Prince' heroName='Wonderwoman' />
+                <DestructuringClass name='Clark Kent' heroName='Superman' />
+                
                 
 
             </div>
