@@ -17,6 +17,8 @@ import Counter from './components/SetState_Callback'
 import CounterOf5 from './components/PrevState'
 import DestructuringFunct from './components/DestructuringFunction'
 import DestructuringClass from './components/DestructuringClass'
+import FunctionClick from './components/FunctionClick'
+import ClassClick from './components/ClassClick'
 
 
 
@@ -63,7 +65,8 @@ class AprendiendoReact extends React.Component{
 
                 <DestructuringFunct name='Diana Prince' heroName='Wonderwoman' />
                 <DestructuringClass name='Clark Kent' heroName='Superman' />
-                
+                <FunctionClick />
+                <ClassClick />
                 
 
             </div>
