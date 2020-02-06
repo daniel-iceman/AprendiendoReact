@@ -19,6 +19,12 @@ import DestructuringFunct from './components/DestructuringFunction'
 import DestructuringClass from './components/DestructuringClass'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import EventeBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
+import IfElseUserGreeting from './components/CondicionalIfElse'
+import CondicionalVariableUserGreeting from './components/CondicionalVariables'
+import ConditionalOperatorUserGreeting from './components/CondicionalOperadorTernario'
+import ConditionalShortCircuit from './components/CondicionalOperadorCortoCircuito'
 
 
 
@@ -67,6 +73,12 @@ class AprendiendoReact extends React.Component{
                 <DestructuringClass name='Clark Kent' heroName='Superman' />
                 <FunctionClick />
                 <ClassClick />
+                <EventeBind />
+                <ParentComponent />
+                <IfElseUserGreeting />
+                <CondicionalVariableUserGreeting />
+                <ConditionalOperatorUserGreeting />
+                <ConditionalShortCircuit />
                 
 
             </div>
