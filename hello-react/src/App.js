@@ -25,6 +25,10 @@ import IfElseUserGreeting from './components/CondicionalIfElse'
 import CondicionalVariableUserGreeting from './components/CondicionalVariables'
 import ConditionalOperatorUserGreeting from './components/CondicionalOperadorTernario'
 import ConditionalShortCircuit from './components/CondicionalOperadorCortoCircuito'
+import NameList from './components/NameList'
+import ObjectListIndex from './components/ObjectListIndex'
+import CarListRender from './components/CarListRender'
+
 
 
 
@@ -79,6 +83,9 @@ class AprendiendoReact extends React.Component{
                 <CondicionalVariableUserGreeting />
                 <ConditionalOperatorUserGreeting />
                 <ConditionalShortCircuit />
+                <NameList />
+                <ObjectListIndex />
+                <CarListRender />
                 
 
             </div>
