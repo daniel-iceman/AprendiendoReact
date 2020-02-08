@@ -28,6 +28,8 @@ import ConditionalShortCircuit from './components/CondicionalOperadorCortoCircui
 import NameList from './components/NameList'
 import ObjectListIndex from './components/ObjectListIndex'
 import CarListRender from './components/CarListRender'
+import Stylesheet from './components/Stylesheet'
+import InLineCSS from './components/InLineCSS'
 
 
 
@@ -86,6 +88,12 @@ class AprendiendoReact extends React.Component{
                 <NameList />
                 <ObjectListIndex />
                 <CarListRender />
+
+                {/*Al componente "Stylesheet" le podemos pasar "props"
+                para que manipule los estilos de css */}
+                <Stylesheet primary={true}/>
+
+                <InLineCSS/>
                 
 
             </div>

@@ -11,7 +11,7 @@ function CarRender({garage}) {
             cual llama a cada uno de los elementos que contiene el objeto por medio
             del "operador punto" */}
             <h2>
-                The {garage.model} year {garage.year} is color {garage.color} 
+                The {garage.trade} {garage.model} year {garage.year} become in {garage.color}
             </h2>
         </div>
     )

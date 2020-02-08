@@ -1,0 +1,11 @@
+
+/*Esta clase será usada para probar las props*/
+.primary {
+    color: orangered;
+}
+
+/*Esta clase será usada para ver como se concatenan una clase
+y una variable*/
+.font-xl {
+    font-size: xx-large;
+}
