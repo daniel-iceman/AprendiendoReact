@@ -30,6 +30,10 @@ import ObjectListIndex from './components/ObjectListIndex'
 import CarListRender from './components/CarListRender'
 import Stylesheet from './components/Stylesheet'
 import InLineCSS from './components/InLineCSS'
+import FormComponent from './components/Form'
+import LifecycleA from './components/LifecycleA'
+//import FragmentDemo from './components/FragmentDemo'
+import Table from './components/FragmentDemoTable'
 
 
 
@@ -69,18 +73,27 @@ class AprendiendoReact extends React.Component{
                 {/*     <ClaseBienvenida name='Bruce Wayne' heroName='Batman' />
                 <ClaseBienvenida name='Diana Prince' heroName='Wonderwoman' />      */}
                 <Hello />
+                <br/>
                 <Mensaje />
+                <br/>
                 <Counter />
+                <br/>
 
                 {/*Al ser un numero el valor se coloca entre llaves*/}
                 <CounterOf5 addValue= {1} />
+                <br/>
 
                 <DestructuringFunct name='Diana Prince' heroName='Wonderwoman' />
                 <DestructuringClass name='Clark Kent' heroName='Superman' />
+                <br/>
                 <FunctionClick />
+                <br/>
                 <ClassClick />
+                <br/>                
                 <EventeBind />
+                <br/>
                 <ParentComponent />
+                <br/>
                 <IfElseUserGreeting />
                 <CondicionalVariableUserGreeting />
                 <ConditionalOperatorUserGreeting />
@@ -94,6 +107,14 @@ class AprendiendoReact extends React.Component{
                 <Stylesheet primary={true}/>
 
                 <InLineCSS/>
+
+                <FormComponent />
+                <br/>
+                <LifecycleA />
+                <br/>
+                <Table />
+                {/*<FragmentDemo />*/}
+
                 
 
             </div>
