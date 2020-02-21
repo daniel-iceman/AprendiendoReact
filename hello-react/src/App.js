@@ -34,6 +34,7 @@ import FormComponent from './components/Form'
 import LifecycleA from './components/LifecycleA'
 //import FragmentDemo from './components/FragmentDemo'
 import Table from './components/FragmentDemoTable'
+import BotonContador from './components/Boton'
 
 
 
@@ -114,6 +115,8 @@ class AprendiendoReact extends React.Component{
                 <br/>
                 <Table />
                 {/*<FragmentDemo />*/}
+                <br/>
+                <BotonContador />
 
                 
 
